@@ -96,7 +96,7 @@ sets a high noise floor for 0.6-second flaws.
 ```bash
 python -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt        # ffmpeg must be installed for browser recordings
-# get the audio: unzip podium-dataset-v1.zip from Releases into data/dataset/
+python scripts/fetch_dataset.py      # downloads the 207 recordings (175 MB) from the v1 release
 python -m uvicorn app.server:app --port 8780
 # open http://localhost:8780   (or ?ref=test/reagan_challenger_2&sample=mirror_L4 to jump to a comparison)
 ```
