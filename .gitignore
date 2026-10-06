@@ -6,3 +6,4 @@ data/voices/
 *.pyc
 data/dataset/**/*.wav
 docs/technical_report.html
+build/
