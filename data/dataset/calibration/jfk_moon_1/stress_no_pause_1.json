@@ -1,0 +1,649 @@
+{
+ "excerpt": "jfk_moon_1",
+ "split": "calibration",
+ "kind": "stress",
+ "voice": null,
+ "flaws": [
+  {
+   "type": "no_pause",
+   "severity": 1,
+   "i": 35,
+   "j": 35,
+   "start": 14.594,
+   "end": 15.665
+  }
+ ],
+ "words": [
+  {
+   "word": "for",
+   "start": 0.32,
+   "end": 0.42,
+   "score": 0.286
+  },
+  {
+   "word": "we",
+   "start": 0.48,
+   "end": 0.56,
+   "score": 0.996
+  },
+  {
+   "word": "meet",
+   "start": 0.66,
+   "end": 0.94,
+   "score": 0.869
+  },
+  {
+   "word": "in",
+   "start": 1.02,
+   "end": 1.08,
+   "score": 0.994
+  },
+  {
+   "word": "an",
+   "start": 1.12,
+   "end": 1.2,
+   "score": 0.918
+  },
+  {
+   "word": "hour",
+   "start": 1.24,
+   "end": 1.54,
+   "score": 0.926
+  },
+  {
+   "word": "of",
+   "start": 1.6,
+   "end": 1.68,
+   "score": 0.99
+  },
+  {
+   "word": "change",
+   "start": 1.761,
+   "end": 2.321,
+   "score": 0.956
+  },
+  {
+   "word": "and",
+   "start": 2.521,
+   "end": 2.641,
+   "score": 0.869
+  },
+  {
+   "word": "challenge",
+   "start": 2.681,
+   "end": 3.161,
+   "score": 0.996
+  },
+  {
+   "word": "in",
+   "start": 4.301,
+   "end": 4.361,
+   "score": 0.995
+  },
+  {
+   "word": "a",
+   "start": 4.421,
+   "end": 4.441,
+   "score": 0.995
+  },
+  {
+   "word": "decade",
+   "start": 4.541,
+   "end": 5.041,
+   "score": 0.997
+  },
+  {
+   "word": "of",
+   "start": 5.061,
+   "end": 5.121,
+   "score": 0.997
+  },
+  {
+   "word": "hope",
+   "start": 5.181,
+   "end": 5.462,
+   "score": 0.987
+  },
+  {
+   "word": "and",
+   "start": 5.662,
+   "end": 5.762,
+   "score": 0.956
+  },
+  {
+   "word": "fear",
+   "start": 5.842,
+   "end": 6.082,
+   "score": 0.221
+  },
+  {
+   "word": "in",
+   "start": 7.122,
+   "end": 7.182,
+   "score": 0.963
+  },
+  {
+   "word": "an",
+   "start": 7.202,
+   "end": 7.282,
+   "score": 0.979
+  },
+  {
+   "word": "age",
+   "start": 7.362,
+   "end": 7.622,
+   "score": 0.997
+  },
+  {
+   "word": "of",
+   "start": 7.662,
+   "end": 7.722,
+   "score": 0.887
+  },
+  {
+   "word": "both",
+   "start": 7.762,
+   "end": 7.982,
+   "score": 0.981
+  },
+  {
+   "word": "knowledge",
+   "start": 8.022,
+   "end": 8.482,
+   "score": 0.931
+  },
+  {
+   "word": "and",
+   "start": 8.903,
+   "end": 9.003,
+   "score": 0.92
+  },
+  {
+   "word": "ignorance",
+   "start": 9.043,
+   "end": 9.463,
+   "score": 0.997
+  },
+  {
+   "word": "the",
+   "start": 10.423,
+   "end": 10.503,
+   "score": 0.975
+  },
+  {
+   "word": "greater",
+   "start": 10.563,
+   "end": 10.883,
+   "score": 0.918
+  },
+  {
+   "word": "our",
+   "start": 10.963,
+   "end": 11.083,
+   "score": 0.986
+  },
+  {
+   "word": "knowledge",
+   "start": 11.123,
+   "end": 11.503,
+   "score": 0.971
+  },
+  {
+   "word": "increases",
+   "start": 11.523,
+   "end": 12.063,
+   "score": 0.685
+  },
+  {
+   "word": "the",
+   "start": 12.964,
+   "end": 13.044,
+   "score": 0.982
+  },
+  {
+   "word": "greater",
+   "start": 13.084,
+   "end": 13.384,
+   "score": 0.94
+  },
+  {
+   "word": "our",
+   "start": 13.504,
+   "end": 13.624,
+   "score": 0.989
+  },
+  {
+   "word": "ignorance",
+   "start": 13.684,
+   "end": 14.084,
+   "score": 0.995
+  },
+  {
+   "word": "unfolds",
+   "start": 14.244,
+   "end": 14.844,
+   "score": 0.852
+  },
+  {
+   "word": "despite",
+   "start": 15.415,
+   "end": 15.835,
+   "score": 0.999
+  },
+  {
+   "word": "the",
+   "start": 15.835,
+   "end": 15.915,
+   "score": 0.937
+  },
+  {
+   "word": "striking",
+   "start": 15.954,
+   "end": 16.395,
+   "score": 0.996
+  },
+  {
+   "word": "fact",
+   "start": 16.434,
+   "end": 16.774,
+   "score": 0.999
+  },
+  {
+   "word": "that",
+   "start": 17.774,
+   "end": 17.895,
+   "score": 0.998
+  },
+  {
+   "word": "most",
+   "start": 17.954,
+   "end": 18.255,
+   "score": 0.994
+  },
+  {
+   "word": "of",
+   "start": 18.315,
+   "end": 18.375,
+   "score": 0.999
+  },
+  {
+   "word": "the",
+   "start": 18.395,
+   "end": 18.475,
+   "score": 0.996
+  },
+  {
+   "word": "scientists",
+   "start": 18.515,
+   "end": 19.116,
+   "score": 0.79
+  },
+  {
+   "word": "that",
+   "start": 19.155,
+   "end": 19.276,
+   "score": 0.997
+  },
+  {
+   "word": "the",
+   "start": 19.296,
+   "end": 19.376,
+   "score": 0.954
+  },
+  {
+   "word": "world",
+   "start": 19.436,
+   "end": 19.835,
+   "score": 0.993
+  },
+  {
+   "word": "has",
+   "start": 19.876,
+   "end": 20.015,
+   "score": 0.998
+  },
+  {
+   "word": "ever",
+   "start": 20.076,
+   "end": 20.216,
+   "score": 0.97
+  },
+  {
+   "word": "known",
+   "start": 20.236,
+   "end": 20.556,
+   "score": 0.972
+  },
+  {
+   "word": "are",
+   "start": 21.335,
+   "end": 21.456,
+   "score": 0.827
+  },
+  {
+   "word": "alive",
+   "start": 21.476,
+   "end": 22.056,
+   "score": 0.963
+  },
+  {
+   "word": "and",
+   "start": 22.657,
+   "end": 22.757,
+   "score": 0.901
+  },
+  {
+   "word": "working",
+   "start": 22.797,
+   "end": 23.117,
+   "score": 0.985
+  },
+  {
+   "word": "today",
+   "start": 23.137,
+   "end": 23.457,
+   "score": 0.997
+  },
+  {
+   "word": "despite",
+   "start": 24.597,
+   "end": 25.037,
+   "score": 0.999
+  },
+  {
+   "word": "the",
+   "start": 25.056,
+   "end": 25.137,
+   "score": 0.98
+  },
+  {
+   "word": "fact",
+   "start": 25.216,
+   "end": 25.538,
+   "score": 0.999
+  },
+  {
+   "word": "that",
+   "start": 25.578,
+   "end": 25.678,
+   "score": 0.995
+  },
+  {
+   "word": "this",
+   "start": 25.738,
+   "end": 25.938,
+   "score": 0.946
+  },
+  {
+   "word": "nation's",
+   "start": 26.038,
+   "end": 26.558,
+   "score": 0.924
+  },
+  {
+   "word": "own",
+   "start": 26.738,
+   "end": 26.998,
+   "score": 0.932
+  },
+  {
+   "word": "scientific",
+   "start": 27.137,
+   "end": 27.838,
+   "score": 0.99
+  },
+  {
+   "word": "manpower",
+   "start": 27.898,
+   "end": 28.518,
+   "score": 0.988
+  },
+  {
+   "word": "is",
+   "start": 29.319,
+   "end": 29.459,
+   "score": 0.993
+  },
+  {
+   "word": "doubling",
+   "start": 29.539,
+   "end": 29.979,
+   "score": 0.84
+  },
+  {
+   "word": "every",
+   "start": 30.059,
+   "end": 30.259,
+   "score": 0.999
+  },
+  {
+   "word": "twelve",
+   "start": 30.358,
+   "end": 30.698,
+   "score": 0.993
+  },
+  {
+   "word": "years",
+   "start": 30.739,
+   "end": 31.099,
+   "score": 0.995
+  },
+  {
+   "word": "in",
+   "start": 32.079,
+   "end": 32.159,
+   "score": 0.997
+  },
+  {
+   "word": "a",
+   "start": 32.219,
+   "end": 32.239,
+   "score": 0.995
+  },
+  {
+   "word": "rate",
+   "start": 32.379,
+   "end": 32.579,
+   "score": 0.718
+  },
+  {
+   "word": "of",
+   "start": 32.579,
+   "end": 32.639,
+   "score": 0.954
+  },
+  {
+   "word": "growth",
+   "start": 32.68,
+   "end": 33.059,
+   "score": 0.785
+  },
+  {
+   "word": "more",
+   "start": 34.059,
+   "end": 34.26,
+   "score": 0.818
+  },
+  {
+   "word": "than",
+   "start": 34.279,
+   "end": 34.4,
+   "score": 0.936
+  },
+  {
+   "word": "three",
+   "start": 34.439,
+   "end": 34.659,
+   "score": 0.955
+  },
+  {
+   "word": "times",
+   "start": 34.719,
+   "end": 35.1,
+   "score": 0.998
+  },
+  {
+   "word": "that",
+   "start": 35.139,
+   "end": 35.419,
+   "score": 0.996
+  },
+  {
+   "word": "of",
+   "start": 36.061,
+   "end": 36.141,
+   "score": 0.998
+  },
+  {
+   "word": "our",
+   "start": 36.18,
+   "end": 36.3,
+   "score": 0.989
+  },
+  {
+   "word": "population",
+   "start": 36.341,
+   "end": 36.941,
+   "score": 1.0
+  },
+  {
+   "word": "as",
+   "start": 36.981,
+   "end": 37.061,
+   "score": 0.996
+  },
+  {
+   "word": "a",
+   "start": 37.1,
+   "end": 37.121,
+   "score": 0.992
+  },
+  {
+   "word": "whole",
+   "start": 37.16,
+   "end": 37.441,
+   "score": 0.906
+  },
+  {
+   "word": "despite",
+   "start": 38.341,
+   "end": 38.921,
+   "score": 0.995
+  },
+  {
+   "word": "that",
+   "start": 38.96,
+   "end": 39.221,
+   "score": 0.985
+  },
+  {
+   "word": "the",
+   "start": 40.481,
+   "end": 40.582,
+   "score": 0.973
+  },
+  {
+   "word": "vast",
+   "start": 40.681,
+   "end": 41.222,
+   "score": 0.967
+  },
+  {
+   "word": "stretches",
+   "start": 41.462,
+   "end": 42.022,
+   "score": 0.959
+  },
+  {
+   "word": "of",
+   "start": 42.082,
+   "end": 42.162,
+   "score": 0.998
+  },
+  {
+   "word": "the",
+   "start": 42.201,
+   "end": 42.281,
+   "score": 0.965
+  },
+  {
+   "word": "unknown",
+   "start": 42.401,
+   "end": 42.983,
+   "score": 0.967
+  },
+  {
+   "word": "and",
+   "start": 43.703,
+   "end": 43.922,
+   "score": 0.807
+  },
+  {
+   "word": "the",
+   "start": 43.963,
+   "end": 44.043,
+   "score": 0.708
+  },
+  {
+   "word": "unanswered",
+   "start": 44.123,
+   "end": 44.703,
+   "score": 0.443
+  },
+  {
+   "word": "and",
+   "start": 45.603,
+   "end": 45.823,
+   "score": 0.752
+  },
+  {
+   "word": "the",
+   "start": 45.843,
+   "end": 45.922,
+   "score": 0.951
+  },
+  {
+   "word": "unfinished",
+   "start": 46.002,
+   "end": 46.644,
+   "score": 0.996
+  },
+  {
+   "word": "still",
+   "start": 47.603,
+   "end": 47.944,
+   "score": 0.95
+  },
+  {
+   "word": "far",
+   "start": 48.064,
+   "end": 48.323,
+   "score": 0.999
+  },
+  {
+   "word": "outstrip",
+   "start": 48.403,
+   "end": 48.864,
+   "score": 0.866
+  },
+  {
+   "word": "our",
+   "start": 49.825,
+   "end": 49.924,
+   "score": 0.739
+  },
+  {
+   "word": "collective",
+   "start": 49.965,
+   "end": 50.404,
+   "score": 0.999
+  },
+  {
+   "word": "comprehension",
+   "start": 50.445,
+   "end": 51.064,
+   "score": 0.992
+  }
+ ],
+ "reference": "baseline.wav"
+}

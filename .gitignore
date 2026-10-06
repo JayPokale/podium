@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+data/raw/
+data/cache/
+data/voices/
+*.pyc
+data/dataset/**/*.wav
+docs/technical_report.html

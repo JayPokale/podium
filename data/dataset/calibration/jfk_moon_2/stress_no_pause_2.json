@@ -1,0 +1,877 @@
+{
+ "excerpt": "jfk_moon_2",
+ "split": "calibration",
+ "kind": "stress",
+ "voice": null,
+ "flaws": [
+  {
+   "type": "no_pause",
+   "severity": 2,
+   "i": 53,
+   "j": 53,
+   "start": 22.617,
+   "end": 23.313
+  }
+ ],
+ "words": [
+  {
+   "word": "in",
+   "start": 0.3,
+   "end": 0.36,
+   "score": 0.998
+  },
+  {
+   "word": "the",
+   "start": 0.38,
+   "end": 0.46,
+   "score": 0.99
+  },
+  {
+   "word": "last",
+   "start": 0.52,
+   "end": 0.84,
+   "score": 0.94
+  },
+  {
+   "word": "twenty",
+   "start": 0.86,
+   "end": 1.08,
+   "score": 0.069
+  },
+  {
+   "word": "four",
+   "start": 1.18,
+   "end": 1.36,
+   "score": 0.127
+  },
+  {
+   "word": "hours",
+   "start": 1.4,
+   "end": 1.721,
+   "score": 0.958
+  },
+  {
+   "word": "we",
+   "start": 2.541,
+   "end": 2.621,
+   "score": 0.998
+  },
+  {
+   "word": "have",
+   "start": 2.701,
+   "end": 2.841,
+   "score": 0.999
+  },
+  {
+   "word": "seen",
+   "start": 2.901,
+   "end": 3.141,
+   "score": 0.999
+  },
+  {
+   "word": "facilities",
+   "start": 3.221,
+   "end": 3.861,
+   "score": 0.974
+  },
+  {
+   "word": "now",
+   "start": 3.981,
+   "end": 4.201,
+   "score": 0.979
+  },
+  {
+   "word": "being",
+   "start": 4.281,
+   "end": 4.481,
+   "score": 0.997
+  },
+  {
+   "word": "created",
+   "start": 4.521,
+   "end": 4.961,
+   "score": 0.999
+  },
+  {
+   "word": "for",
+   "start": 5.662,
+   "end": 5.762,
+   "score": 0.998
+  },
+  {
+   "word": "the",
+   "start": 5.782,
+   "end": 5.862,
+   "score": 0.998
+  },
+  {
+   "word": "greatest",
+   "start": 5.902,
+   "end": 6.342,
+   "score": 0.992
+  },
+  {
+   "word": "and",
+   "start": 6.642,
+   "end": 6.762,
+   "score": 0.978
+  },
+  {
+   "word": "most",
+   "start": 6.802,
+   "end": 7.062,
+   "score": 0.998
+  },
+  {
+   "word": "complex",
+   "start": 7.102,
+   "end": 7.622,
+   "score": 0.999
+  },
+  {
+   "word": "exploration",
+   "start": 7.802,
+   "end": 8.483,
+   "score": 0.997
+  },
+  {
+   "word": "in",
+   "start": 8.803,
+   "end": 8.883,
+   "score": 0.997
+  },
+  {
+   "word": "man's",
+   "start": 8.923,
+   "end": 9.223,
+   "score": 0.965
+  },
+  {
+   "word": "history",
+   "start": 9.243,
+   "end": 9.563,
+   "score": 0.998
+  },
+  {
+   "word": "we",
+   "start": 10.623,
+   "end": 10.703,
+   "score": 0.998
+  },
+  {
+   "word": "have",
+   "start": 10.743,
+   "end": 10.883,
+   "score": 0.962
+  },
+  {
+   "word": "felt",
+   "start": 10.903,
+   "end": 11.123,
+   "score": 0.958
+  },
+  {
+   "word": "the",
+   "start": 11.163,
+   "end": 11.243,
+   "score": 0.943
+  },
+  {
+   "word": "ground",
+   "start": 11.283,
+   "end": 11.684,
+   "score": 0.894
+  },
+  {
+   "word": "shake",
+   "start": 12.024,
+   "end": 12.364,
+   "score": 0.938
+  },
+  {
+   "word": "and",
+   "start": 13.204,
+   "end": 13.284,
+   "score": 0.977
+  },
+  {
+   "word": "the",
+   "start": 13.304,
+   "end": 13.384,
+   "score": 0.985
+  },
+  {
+   "word": "air",
+   "start": 13.464,
+   "end": 13.644,
+   "score": 0.861
+  },
+  {
+   "word": "shattered",
+   "start": 13.744,
+   "end": 14.104,
+   "score": 0.56
+  },
+  {
+   "word": "by",
+   "start": 14.164,
+   "end": 14.284,
+   "score": 0.999
+  },
+  {
+   "word": "the",
+   "start": 14.304,
+   "end": 14.384,
+   "score": 0.995
+  },
+  {
+   "word": "testing",
+   "start": 14.444,
+   "end": 14.884,
+   "score": 0.985
+  },
+  {
+   "word": "of",
+   "start": 14.904,
+   "end": 14.964,
+   "score": 0.993
+  },
+  {
+   "word": "a",
+   "start": 15.005,
+   "end": 15.025,
+   "score": 0.983
+  },
+  {
+   "word": "saturn",
+   "start": 15.105,
+   "end": 15.465,
+   "score": 0.678
+  },
+  {
+   "word": "cone",
+   "start": 16.145,
+   "end": 16.765,
+   "score": 0.745
+  },
+  {
+   "word": "booster",
+   "start": 16.845,
+   "end": 17.185,
+   "score": 0.522
+  },
+  {
+   "word": "rocket",
+   "start": 17.225,
+   "end": 17.525,
+   "score": 0.814
+  },
+  {
+   "word": "many",
+   "start": 18.446,
+   "end": 18.666,
+   "score": 1.0
+  },
+  {
+   "word": "times",
+   "start": 18.766,
+   "end": 19.186,
+   "score": 0.996
+  },
+  {
+   "word": "as",
+   "start": 19.226,
+   "end": 19.306,
+   "score": 0.989
+  },
+  {
+   "word": "powerful",
+   "start": 19.366,
+   "end": 19.846,
+   "score": 0.975
+  },
+  {
+   "word": "as",
+   "start": 20.626,
+   "end": 20.726,
+   "score": 0.996
+  },
+  {
+   "word": "the",
+   "start": 20.766,
+   "end": 20.846,
+   "score": 0.995
+  },
+  {
+   "word": "atlas",
+   "start": 20.946,
+   "end": 21.286,
+   "score": 0.607
+  },
+  {
+   "word": "which",
+   "start": 21.346,
+   "end": 21.506,
+   "score": 0.994
+  },
+  {
+   "word": "launched",
+   "start": 21.626,
+   "end": 22.027,
+   "score": 0.892
+  },
+  {
+   "word": "john",
+   "start": 22.247,
+   "end": 22.507,
+   "score": 0.935
+  },
+  {
+   "word": "glenn",
+   "start": 22.567,
+   "end": 22.867,
+   "score": 0.565
+  },
+  {
+   "word": "generating",
+   "start": 23.063,
+   "end": 23.603,
+   "score": 0.999
+  },
+  {
+   "word": "power",
+   "start": 23.663,
+   "end": 24.003,
+   "score": 0.955
+  },
+  {
+   "word": "equivalents",
+   "start": 24.063,
+   "end": 24.584,
+   "score": 0.806
+  },
+  {
+   "word": "to",
+   "start": 24.644,
+   "end": 24.724,
+   "score": 0.99
+  },
+  {
+   "word": "tenzero",
+   "start": 24.864,
+   "end": 25.544,
+   "score": 0.01
+  },
+  {
+   "word": "automobiles",
+   "start": 25.644,
+   "end": 26.344,
+   "score": 0.964
+  },
+  {
+   "word": "with",
+   "start": 26.424,
+   "end": 26.564,
+   "score": 0.994
+  },
+  {
+   "word": "their",
+   "start": 26.624,
+   "end": 26.804,
+   "score": 0.912
+  },
+  {
+   "word": "accelerator",
+   "start": 27.204,
+   "end": 27.905,
+   "score": 0.738
+  },
+  {
+   "word": "on",
+   "start": 27.965,
+   "end": 28.025,
+   "score": 0.99
+  },
+  {
+   "word": "the",
+   "start": 28.045,
+   "end": 28.105,
+   "score": 0.979
+  },
+  {
+   "word": "floor",
+   "start": 28.165,
+   "end": 28.485,
+   "score": 0.575
+  },
+  {
+   "word": "we",
+   "start": 29.525,
+   "end": 29.605,
+   "score": 0.996
+  },
+  {
+   "word": "have",
+   "start": 29.645,
+   "end": 29.785,
+   "score": 0.984
+  },
+  {
+   "word": "seen",
+   "start": 29.845,
+   "end": 30.105,
+   "score": 0.999
+  },
+  {
+   "word": "the",
+   "start": 30.125,
+   "end": 30.205,
+   "score": 0.952
+  },
+  {
+   "word": "site",
+   "start": 30.285,
+   "end": 30.625,
+   "score": 0.88
+  },
+  {
+   "word": "where",
+   "start": 31.406,
+   "end": 31.586,
+   "score": 0.979
+  },
+  {
+   "word": "five",
+   "start": 31.686,
+   "end": 32.166,
+   "score": 0.487
+  },
+  {
+   "word": "fone",
+   "start": 32.466,
+   "end": 32.846,
+   "score": 0.923
+  },
+  {
+   "word": "rocket",
+   "start": 32.906,
+   "end": 33.226,
+   "score": 0.916
+  },
+  {
+   "word": "engines",
+   "start": 33.286,
+   "end": 33.666,
+   "score": 0.705
+  },
+  {
+   "word": "each",
+   "start": 34.567,
+   "end": 34.807,
+   "score": 0.979
+  },
+  {
+   "word": "one",
+   "start": 34.967,
+   "end": 35.207,
+   "score": 0.995
+  },
+  {
+   "word": "as",
+   "start": 35.247,
+   "end": 35.347,
+   "score": 0.951
+  },
+  {
+   "word": "powerful",
+   "start": 35.427,
+   "end": 35.907,
+   "score": 0.801
+  },
+  {
+   "word": "as",
+   "start": 36.747,
+   "end": 36.867,
+   "score": 0.978
+  },
+  {
+   "word": "all",
+   "start": 36.987,
+   "end": 37.247,
+   "score": 0.99
+  },
+  {
+   "word": "engines",
+   "start": 37.427,
+   "end": 37.928,
+   "score": 0.714
+  },
+  {
+   "word": "of",
+   "start": 37.968,
+   "end": 38.028,
+   "score": 0.996
+  },
+  {
+   "word": "the",
+   "start": 38.068,
+   "end": 38.148,
+   "score": 0.983
+  },
+  {
+   "word": "saturn",
+   "start": 38.228,
+   "end": 38.588,
+   "score": 0.795
+  },
+  {
+   "word": "combined",
+   "start": 38.648,
+   "end": 39.268,
+   "score": 0.928
+  },
+  {
+   "word": "would",
+   "start": 40.048,
+   "end": 40.168,
+   "score": 0.658
+  },
+  {
+   "word": "be",
+   "start": 40.288,
+   "end": 40.348,
+   "score": 0.943
+  },
+  {
+   "word": "clustered",
+   "start": 40.448,
+   "end": 40.909,
+   "score": 0.771
+  },
+  {
+   "word": "together",
+   "start": 40.969,
+   "end": 41.469,
+   "score": 0.968
+  },
+  {
+   "word": "to",
+   "start": 42.289,
+   "end": 42.349,
+   "score": 0.98
+  },
+  {
+   "word": "make",
+   "start": 42.429,
+   "end": 42.629,
+   "score": 0.964
+  },
+  {
+   "word": "the",
+   "start": 42.649,
+   "end": 42.729,
+   "score": 0.63
+  },
+  {
+   "word": "advanced",
+   "start": 42.949,
+   "end": 43.609,
+   "score": 0.927
+  },
+  {
+   "word": "saturn",
+   "start": 43.909,
+   "end": 44.29,
+   "score": 0.717
+  },
+  {
+   "word": "missile",
+   "start": 44.43,
+   "end": 44.89,
+   "score": 0.389
+  },
+  {
+   "word": "assembled",
+   "start": 45.73,
+   "end": 46.25,
+   "score": 0.987
+  },
+  {
+   "word": "in",
+   "start": 46.29,
+   "end": 46.33,
+   "score": 0.989
+  },
+  {
+   "word": "a",
+   "start": 46.37,
+   "end": 46.39,
+   "score": 0.976
+  },
+  {
+   "word": "new",
+   "start": 46.45,
+   "end": 46.57,
+   "score": 0.998
+  },
+  {
+   "word": "building",
+   "start": 46.63,
+   "end": 46.97,
+   "score": 0.992
+  },
+  {
+   "word": "to",
+   "start": 47.791,
+   "end": 47.871,
+   "score": 0.995
+  },
+  {
+   "word": "be",
+   "start": 47.911,
+   "end": 47.991,
+   "score": 0.997
+  },
+  {
+   "word": "built",
+   "start": 48.091,
+   "end": 48.351,
+   "score": 0.848
+  },
+  {
+   "word": "at",
+   "start": 48.391,
+   "end": 48.451,
+   "score": 0.84
+  },
+  {
+   "word": "cape",
+   "start": 48.511,
+   "end": 48.731,
+   "score": 0.93
+  },
+  {
+   "word": "canaveral",
+   "start": 48.751,
+   "end": 49.251,
+   "score": 0.662
+  },
+  {
+   "word": "as",
+   "start": 49.971,
+   "end": 50.091,
+   "score": 0.972
+  },
+  {
+   "word": "tall",
+   "start": 50.191,
+   "end": 50.571,
+   "score": 0.89
+  },
+  {
+   "word": "as",
+   "start": 50.631,
+   "end": 50.711,
+   "score": 0.979
+  },
+  {
+   "word": "a",
+   "start": 50.771,
+   "end": 50.791,
+   "score": 0.859
+  },
+  {
+   "word": "forty",
+   "start": 50.912,
+   "end": 51.232,
+   "score": 0.583
+  },
+  {
+   "word": "eightstory",
+   "start": 51.572,
+   "end": 52.392,
+   "score": 0.529
+  },
+  {
+   "word": "structure",
+   "start": 52.492,
+   "end": 52.952,
+   "score": 0.988
+  },
+  {
+   "word": "as",
+   "start": 53.612,
+   "end": 53.732,
+   "score": 0.992
+  },
+  {
+   "word": "wide",
+   "start": 53.852,
+   "end": 54.373,
+   "score": 0.969
+  },
+  {
+   "word": "as",
+   "start": 54.453,
+   "end": 54.533,
+   "score": 0.994
+  },
+  {
+   "word": "a",
+   "start": 54.593,
+   "end": 54.613,
+   "score": 0.955
+  },
+  {
+   "word": "city",
+   "start": 54.693,
+   "end": 54.893,
+   "score": 0.999
+  },
+  {
+   "word": "block",
+   "start": 54.973,
+   "end": 55.293,
+   "score": 0.998
+  },
+  {
+   "word": "and",
+   "start": 56.033,
+   "end": 56.133,
+   "score": 0.987
+  },
+  {
+   "word": "as",
+   "start": 56.193,
+   "end": 56.313,
+   "score": 0.988
+  },
+  {
+   "word": "long",
+   "start": 56.413,
+   "end": 56.833,
+   "score": 0.968
+  },
+  {
+   "word": "as",
+   "start": 56.913,
+   "end": 57.013,
+   "score": 0.988
+  },
+  {
+   "word": "two",
+   "start": 57.113,
+   "end": 57.293,
+   "score": 0.99
+  },
+  {
+   "word": "lengths",
+   "start": 57.373,
+   "end": 57.734,
+   "score": 0.511
+  },
+  {
+   "word": "of",
+   "start": 58.234,
+   "end": 58.314,
+   "score": 0.993
+  },
+  {
+   "word": "this",
+   "start": 58.354,
+   "end": 58.514,
+   "score": 0.976
+  },
+  {
+   "word": "field",
+   "start": 58.594,
+   "end": 58.914,
+   "score": 0.279
+  },
+  {
+   "word": "within",
+   "start": 59.974,
+   "end": 60.234,
+   "score": 0.984
+  },
+  {
+   "word": "these",
+   "start": 60.294,
+   "end": 60.554,
+   "score": 0.952
+  },
+  {
+   "word": "last",
+   "start": 60.574,
+   "end": 60.895,
+   "score": 0.941
+  },
+  {
+   "word": "nineteen",
+   "start": 60.935,
+   "end": 61.375,
+   "score": 0.09
+  },
+  {
+   "word": "months",
+   "start": 61.415,
+   "end": 61.695,
+   "score": 0.942
+  },
+  {
+   "word": "at",
+   "start": 62.375,
+   "end": 62.475,
+   "score": 0.997
+  },
+  {
+   "word": "least",
+   "start": 62.535,
+   "end": 62.715,
+   "score": 0.952
+  },
+  {
+   "word": "forty",
+   "start": 62.775,
+   "end": 62.995,
+   "score": 0.052
+  },
+  {
+   "word": "five",
+   "start": 63.075,
+   "end": 63.355,
+   "score": 0.268
+  },
+  {
+   "word": "satellites",
+   "start": 63.415,
+   "end": 63.995,
+   "score": 0.961
+  },
+  {
+   "word": "have",
+   "start": 64.496,
+   "end": 64.636,
+   "score": 0.972
+  },
+  {
+   "word": "circled",
+   "start": 64.696,
+   "end": 65.036,
+   "score": 0.936
+  },
+  {
+   "word": "the",
+   "start": 65.036,
+   "end": 65.116,
+   "score": 0.942
+  },
+  {
+   "word": "earth",
+   "start": 65.196,
+   "end": 65.436,
+   "score": 0.898
+  }
+ ],
+ "reference": "baseline.wav"
+}

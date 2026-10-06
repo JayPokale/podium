@@ -1,0 +1,1439 @@
+[
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/baseline.wav",
+  "kind": "baseline"
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/mirror_L0.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/mirror_L1.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 2
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/mirror_L2.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/mirror_L3.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 5
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/mirror_L4.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_rushed_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_rushed_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_rushed_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_dragged_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_dragged_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_dragged_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_monotone_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_monotone_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_monotone_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_mumbled_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_mumbled_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_mumbled_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_loud_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_loud_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_loud_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_long_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_long_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_long_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_no_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_no_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_no_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_stutter_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_stutter_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/stress_stutter_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/tts_en_US-lessac-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/tts_en_US-lessac-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/tts_en_US-lessac-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/tts_en_GB-alan-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/tts_en_GB-alan-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_inaugural_2",
+  "file": "calibration/jfk_inaugural_2/tts_en_GB-alan-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/baseline.wav",
+  "kind": "baseline"
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/mirror_L0.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/mirror_L1.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 2
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/mirror_L2.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/mirror_L3.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 5
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/mirror_L4.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_rushed_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_rushed_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_rushed_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_dragged_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_dragged_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_dragged_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_monotone_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_monotone_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_monotone_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_mumbled_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_mumbled_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_mumbled_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_loud_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_loud_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_loud_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_long_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_long_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_long_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_no_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_no_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_no_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_stutter_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_stutter_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/stress_stutter_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/tts_en_US-lessac-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/tts_en_US-lessac-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/tts_en_US-lessac-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/tts_en_GB-alan-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/tts_en_GB-alan-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_moon_1",
+  "file": "calibration/jfk_moon_1/tts_en_GB-alan-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/baseline.wav",
+  "kind": "baseline"
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/mirror_L0.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/mirror_L1.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 2
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/mirror_L2.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/mirror_L3.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 5
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/mirror_L4.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_rushed_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_rushed_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_rushed_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_dragged_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_dragged_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_dragged_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_monotone_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_monotone_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_monotone_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_mumbled_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_mumbled_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_mumbled_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_loud_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_loud_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_loud_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_long_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_long_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_long_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_no_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_no_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_no_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_stutter_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_stutter_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/stress_stutter_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/tts_en_US-lessac-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/tts_en_US-lessac-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/tts_en_US-lessac-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_US-lessac-medium",
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/tts_en_GB-alan-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/tts_en_GB-alan-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "jfk_moon_2",
+  "file": "calibration/jfk_moon_2/tts_en_GB-alan-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_GB-alan-medium",
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/baseline.wav",
+  "kind": "baseline"
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/mirror_L0.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/mirror_L1.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 2
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/mirror_L2.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/mirror_L3.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 5
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/mirror_L4.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_rushed_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_rushed_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_rushed_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_dragged_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_dragged_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_dragged_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_monotone_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_monotone_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_monotone_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_mumbled_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_mumbled_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_mumbled_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_loud_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_loud_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_loud_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_long_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_long_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_long_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_no_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_no_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_no_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_stutter_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_stutter_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/stress_stutter_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/tts_en_US-ryan-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/tts_en_US-ryan-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "reagan_challenger_1",
+  "file": "test/reagan_challenger_1/tts_en_US-ryan-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/baseline.wav",
+  "kind": "baseline"
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/mirror_L0.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/mirror_L1.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 2
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/mirror_L2.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/mirror_L3.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 5
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/mirror_L4.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_rushed_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_rushed_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_rushed_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_dragged_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_dragged_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_dragged_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_monotone_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_monotone_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_monotone_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_mumbled_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_mumbled_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_mumbled_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_loud_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_loud_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_loud_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_long_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_long_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_long_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_no_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_no_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_no_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_stutter_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_stutter_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/stress_stutter_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/tts_en_US-ryan-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/tts_en_US-ryan-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "reagan_challenger_2",
+  "file": "test/reagan_challenger_2/tts_en_US-ryan-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/baseline.wav",
+  "kind": "baseline"
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/mirror_L0.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/mirror_L1.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 2
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/mirror_L2.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/mirror_L3.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 5
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/mirror_L4.wav",
+  "kind": "gradient",
+  "voice": null,
+  "n_flaws": 7
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_rushed_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_rushed_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_rushed_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_dragged_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_dragged_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_dragged_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_monotone_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_monotone_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_monotone_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_mumbled_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_mumbled_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_mumbled_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_loud_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_loud_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_loud_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_long_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_long_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_long_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_no_pause_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_no_pause_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_no_pause_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_stutter_1.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_stutter_2.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/stress_stutter_3.wav",
+  "kind": "stress",
+  "voice": null,
+  "n_flaws": 1
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/tts_en_US-ryan-medium_L0.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 0
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/tts_en_US-ryan-medium_L2.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 3
+ },
+ {
+  "excerpt": "reagan_challenger_3",
+  "file": "test/reagan_challenger_3/tts_en_US-ryan-medium_L4.wav",
+  "kind": "tts",
+  "voice": "en_US-ryan-medium",
+  "n_flaws": 7
+ }
+]

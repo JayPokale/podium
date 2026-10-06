@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Podium · speech delivery analyzer</title>
+<script src="/static/plotly.min.js"></script>
+<style>
+  :root { --bg:#f6f5f1; --card:#fff; --ink:#1d2330; --muted:#6a7180; --line:#e3e1da; --accent:#2c4bd6;
+          --rushed:#e4572e; --dragged:#f3a712; --monotone:#7b2cbf; --mumbled:#4d908e; --loud:#d00000;
+          --long_pause:#277da1; --no_pause:#90be6d; --stutter:#c9184a; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:22px 24px 8px; max-width:1200px; margin:auto; }
+  header h1 { margin:0; font-size:1.6rem; letter-spacing:-.01em; }
+  header p { margin:4px 0 0; color:var(--muted); }
+  main { max-width:1200px; margin:auto; padding:8px 24px 48px; display:grid; gap:16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 18px; }
+  .row { display:grid; grid-template-columns: 1fr 1fr; gap:16px; }
+  @media (max-width: 860px) { .row { grid-template-columns:1fr; } }
+  h2 { font-size:1rem; margin:0 0 10px; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
+  select, button { font:inherit; }
+  select { width:100%; padding:8px; border-radius:8px; border:1px solid var(--line); background:#fff; }
+  button { padding:9px 16px; border-radius:9px; border:1px solid var(--accent); background:var(--accent); color:#fff; cursor:pointer; font-weight:600; }
+  button.ghost { background:#fff; color:var(--accent); }
+  button:disabled { opacity:.5; cursor:default; }
+  .transcript { max-height:150px; overflow:auto; background:#fafaf7; border:1px solid var(--line); border-radius:8px; padding:10px; margin:10px 0; font-size:.95rem; }
+  .tabs { display:flex; gap:6px; margin-bottom:10px; }
+  .tabs button { background:#fff; color:var(--ink); border-color:var(--line); font-weight:500; }
+  .tabs button[aria-selected=true] { border-color:var(--accent); color:var(--accent); }
+  .pane { display:none; } .pane.on { display:block; }
+  .muted { color:var(--muted); font-size:.9rem; }
+  audio { width:100%; margin-top:8px; }
+  #status { min-height:1.4em; color:var(--muted); }
+  .rubric { display:grid; grid-template-columns: repeat(6, 1fr); gap:10px; }
+  @media (max-width: 700px) { .rubric { grid-template-columns: repeat(3, 1fr); } }
+  .score { text-align:center; padding:10px 6px; border:1px solid var(--line); border-radius:10px; }
+  .score b { display:block; font-size:1.7rem; }
+  .score.overall { border-color:var(--accent); }
+  .flaws { display:grid; gap:10px; }
+  .flaw { border-left:5px solid var(--c); padding:10px 12px; background:#fafaf7; border-radius:8px; cursor:pointer; }
+  .flaw:hover { background:#f1f0ea; }
+  .flaw .head { display:flex; justify-content:space-between; gap:8px; font-weight:600; }
+  .flaw .quote { font-style:italic; color:var(--muted); }
+  .flaw .tip { color:#1b6b3a; }
+  .words span { padding:1px 2px; border-radius:4px; }
+  .legend span { display:inline-block; margin:2px 10px 2px 0; font-size:.85rem; }
+  .legend i { display:inline-block; width:10px; height:10px; border-radius:2px; margin-right:4px; vertical-align:-1px; }
+  #rec { background:#c9184a; border-color:#c9184a; }
+</style>
+</head>
+<body>
+<header>
+  <h1>🎙️ Podium</h1>
+  <p>Read a great speech, see exactly where your delivery drifts from it, and why. Every flaw is pinned to a time range and explained with the numbers behind it.</p>
+</header>
+<main>
+  <div class="row">
+    <section class="card">
+      <h2>1 · Reference speech</h2>
+      <select id="ref" aria-label="Reference speech"></select>
+      <div class="transcript" id="transcript"></div>
+      <audio id="refAudio" controls preload="none"></audio>
+    </section>
+    <section class="card">
+      <h2>2 · Your delivery</h2>
+      <div class="tabs" role="tablist">
+        <button role="tab" aria-selected="true" data-pane="pSample">Try a sample</button>
+        <button role="tab" aria-selected="false" data-pane="pRecord">Record</button>
+        <button role="tab" aria-selected="false" data-pane="pUpload">Upload</button>
+      </div>
+      <div class="pane on" id="pSample">
+        <select id="sample" aria-label="Sample recording"></select>
+        <p class="muted">Samples come from the Podium dataset: the same speech with flaws injected at known times (ground truth is drawn on the chart), or read by a different (synthetic) speaker.</p>
+      </div>
+      <div class="pane" id="pRecord">
+        <p class="muted">Read the transcript on the left aloud, as if you were giving the speech.</p>
+        <button id="rec">● Start recording</button> <span id="recTime" class="muted"></span>
+      </div>
+      <div class="pane" id="pUpload">
+        <input type="file" id="file" accept="audio/*" aria-label="Audio file">
+        <p class="muted">Any format ffmpeg can read: wav, mp3, m4a, webm.</p>
+      </div>
+      <p style="margin-top:12px"><button id="go">Analyze delivery</button></p>
+      <p id="status" role="status" aria-live="polite"></p>
+      <audio id="partAudio" controls></audio>
+    </section>
+  </div>
+
+  <section class="card" id="results" hidden>
+    <h2>3 · Rubric</h2>
+    <div class="rubric" id="rubric"></div>
+    <p class="muted" id="style"></p>
+  </section>
+
+  <section class="card" id="chartCard" hidden>
+    <h2>Time-series vs the reference</h2>
+    <div class="legend" id="legend"></div>
+    <div id="chart" style="height:640px"></div>
+  </section>
+
+  <div class="row" id="detail" hidden>
+    <section class="card">
+      <h2>Flaw regions</h2>
+      <div class="flaws" id="flaws"></div>
+    </section>
+    <section class="card">
+      <h2>Transcript</h2>
+      <div class="words" id="words"></div>
+    </section>
+  </div>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const css = (v) => getComputedStyle(document.documentElement).getPropertyValue('--' + v).trim();
+const LABEL = { rushed:'Rushed', dragged:'Dragging', monotone:'Monotone', mumbled:'Mumbled', loud:'Volume spike',
+                long_pause:'Awkward pause', no_pause:'Missing breath', stutter:'Stumble' };
+let refs = [], mode = 'pSample', recBlob = null, recorder = null;
+
+$('legend').innerHTML = Object.entries(LABEL).map(([k, v]) => `<span><i style="background:${css(k)}"></i>${v}</span>`).join('')
+  + '<span><i style="background:none;border:1px dashed #555"></i>Injected (ground truth)</span>';
+
+document.querySelectorAll('.tabs button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.tabs button').forEach(x => x.setAttribute('aria-selected', x === b));
+  document.querySelectorAll('.pane').forEach(p => p.classList.toggle('on', p.id === b.dataset.pane));
+  mode = b.dataset.pane;
+}));
+
+async function loadRefs() {
+  refs = await (await fetch('/api/references')).json();
+  $('ref').innerHTML = refs.map((r, i) => `<option value="${i}">${r.speaker}: ${r.speech.replace(/_/g, ' ')} (${r.id.split('/')[1]}, ${r.duration}s, ${r.id.split('/')[0]})</option>`).join('');
+  await pickRef();
+}
+async function pickRef() {
+  const r = refs[$('ref').value];
+  $('transcript').textContent = r.transcript;
+  $('refAudio').src = `/audio/${r.id}/baseline.wav`;
+  const s = await (await fetch('/api/samples?ref=' + encodeURIComponent(r.id))).json();
+  $('sample').innerHTML = s.map(x => `<option value="${x.name}">${x.name.replace(/_/g, ' ')} · ${x.flaws.length ? x.flaws.map(f => LABEL[f.type] + ' ' + f.severity).join(', ') : 'no injected flaws'}</option>`).join('');
+  const pre = s.findIndex(x => x.name === 'mirror_L3'); if (pre >= 0) $('sample').selectedIndex = pre;
+}
+$('ref').addEventListener('change', pickRef);
+
+$('rec').addEventListener('click', async () => {
+  if (recorder && recorder.state === 'recording') { recorder.stop(); return; }
+  const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+  const chunks = []; recorder = new MediaRecorder(stream);
+  recorder.ondataavailable = e => chunks.push(e.data);
+  const t0 = Date.now(), tick = setInterval(() => $('recTime').textContent = ((Date.now() - t0) / 1000).toFixed(0) + ' s', 500);
+  recorder.onstop = () => { clearInterval(tick); stream.getTracks().forEach(t => t.stop());
+    recBlob = new Blob(chunks, { type: recorder.mimeType }); $('partAudio').src = URL.createObjectURL(recBlob);
+    $('rec').textContent = '● Record again'; $('recTime').textContent += ' recorded'; };
+  recorder.start(); $('rec').textContent = '■ Stop';
+});
+
+$('go').addEventListener('click', async () => {
+  const r = refs[$('ref').value], fd = new FormData();
+  fd.append('ref', r.id);
+  if (mode === 'pSample') { fd.append('sample', $('sample').value); $('partAudio').src = `/audio/${r.id}/${$('sample').value}.wav`; }
+  else if (mode === 'pRecord') { if (!recBlob) return status('Record yourself first.'); fd.append('file', recBlob, 'rec.webm'); }
+  else { const f = $('file').files[0]; if (!f) return status('Choose a file first.'); fd.append('file', f); $('partAudio').src = URL.createObjectURL(f); }
+  $('go').disabled = true; status('Aligning words, extracting pitch and loudness, comparing… (about 10-20 s)');
+  try {
+    const res = await fetch('/api/analyze', { method: 'POST', body: fd });
+    const d = await res.json();
+    if (!res.ok) throw new Error(d.detail || res.statusText);
+    render(d); status(`${d.regions.length} flaw region${d.regions.length === 1 ? '' : 's'} found.`);
+  } catch (e) { status('Error: ' + e.message); }
+  finally { $('go').disabled = false; }
+});
+const status = (t) => { $('status').textContent = t; };
+
+function render(d) {
+  ['results', 'chartCard', 'detail'].forEach(id => $(id).hidden = false);
+  const dims = ['overall', 'pacing', 'pauses', 'pitch', 'volume', 'fluency'];
+  $('rubric').innerHTML = dims.map(k => `<div class="score ${k === 'overall' ? 'overall' : ''}"><b>${d.rubric[k].toFixed(1)}</b>${k}</div>`).join('');
+  const st = d.style, notes = [];
+  if (Math.abs(st.length) > 0.1) notes.push(`overall ${st.length > 0 ? 'slower' : 'faster'} than the reference (${Math.abs((2 ** st.length - 1) * 100).toFixed(0)}% ${st.length > 0 ? 'longer' : 'shorter'} words)`);
+  if (Math.abs(st.pitch) > 0.8) notes.push(`pitch range ${st.pitch > 0 ? 'wider' : 'narrower'} by ${Math.abs(st.pitch).toFixed(1)} semitones throughout`);
+  $('style').textContent = notes.length ? 'Overall style (not counted as local flaws): ' + notes.join('; ') + '.' : 'Overall style is close to the reference; scores reflect local flaws.';
+
+  const shapes = [], ann = [];
+  d.regions.forEach(r => shapes.push({ type:'rect', xref:'x', yref:'paper', x0:r.start, x1:r.end, y0:0, y1:1, fillcolor:css(r.type), opacity:.18, line:{ width:0 } }));
+  (d.gold || []).forEach(g => shapes.push({ type:'rect', xref:'x', yref:'paper', x0:g.start, x1:g.end, y0:.985, y1:1.02, fillcolor:'rgba(0,0,0,0)', line:{ color:css(g.type), width:2, dash:'dot' } }));
+  d.regions.forEach(r => ann.push({ x:(r.start + r.end) / 2, y:1.05, xref:'x', yref:'paper', text:LABEL[r.type], showarrow:false, font:{ size:11, color:css(r.type) } }));
+  const wx = d.words.map(w => (w.start + w.end) / 2), rx = d.ref_words.map(w => (w.start + w.end) / 2);
+  const traces = [
+    { x:d.ref_t, y:d.ref_f0, name:'Reference pitch', mode:'lines', line:{ color:'#9aa3b5', width:1.5 }, yaxis:'y', connectgaps:false },
+    { x:d.t, y:d.f0, name:'Your pitch', mode:'lines', line:{ color:'#2c4bd6', width:1.6 }, yaxis:'y' },
+    { x:d.ref_t, y:d.ref_int, name:'Reference loudness', mode:'lines', line:{ color:'#9aa3b5', width:1 }, yaxis:'y2' },
+    { x:d.t, y:d.int, name:'Your loudness', mode:'lines', line:{ color:'#4d908e', width:1.2 }, yaxis:'y2' },
+    { x:rx, y:d.ref_words.map(w => w.rate_local), name:'Reference pace', mode:'lines', line:{ color:'#9aa3b5', shape:'hv' }, yaxis:'y3' },
+    { x:wx, y:d.words.map(w => w.rate_local), name:'Your pace', mode:'lines+markers', marker:{ size:4 }, line:{ color:'#e4572e', shape:'hv' }, yaxis:'y3',
+      text:d.words.map(w => w.word), hovertemplate:'%{text}: %{y:.1f} syl/s<extra></extra>' },
+  ];
+  Plotly.newPlot('chart', traces, {
+    margin:{ t:36, r:10, l:56, b:40 }, shapes, annotations:ann, hovermode:'x unified', showlegend:true,
+    legend:{ orientation:'h', y:-0.13 }, xaxis:{ title:'seconds (your recording)', anchor:'y3' },
+    yaxis:{ domain:[0.68, 1], title:'pitch (st)', zeroline:false },
+    yaxis2:{ domain:[0.36, 0.64], title:'loudness (dB)', zeroline:false },
+    yaxis3:{ domain:[0, 0.32], title:'pace (syl/s)' },
+  }, { responsive:true, displaylogo:false });
+
+  $('flaws').innerHTML = d.regions.length ? d.regions.map((r, i) => `<div class="flaw" style="--c:${css(r.type)}" data-i="${i}" tabindex="0" role="button" aria-label="Play ${r.label} at ${r.start.toFixed(1)} seconds">
+    <div class="head"><span>${r.label}</span><span class="muted">${r.start.toFixed(2)}–${r.end.toFixed(2)} s · z ${r.z}</span></div>
+    <div class="quote">“${r.quote}”</div><div>${r.why}</div><div class="tip">→ ${r.tip}</div></div>`).join('')
+    : '<p class="muted">No local flaws above threshold. Check the rubric for overall style.</p>';
+  document.querySelectorAll('.flaw').forEach(el => {
+    const play = () => { const r = d.regions[+el.dataset.i], a = $('partAudio'); a.currentTime = Math.max(0, r.start - 0.5); a.play();
+      setTimeout(() => a.pause(), (r.end - r.start + 1) * 1000); };
+    el.addEventListener('click', play); el.addEventListener('keydown', e => { if (e.key === 'Enter') play(); });
+  });
+  const inR = (i) => d.regions.find(r => i >= r.i && i <= r.j);
+  $('words').innerHTML = d.words.map((w, i) => { const r = inR(i);
+    return r ? `<span style="background:${css(r.type)}33;border-bottom:2px solid ${css(r.type)}" title="${r.label}">${w.word}</span>` : `<span>${w.word}</span>`; }).join(' ');
+}
+// ?ref=test/reagan_challenger_2&sample=mirror_L4 opens that comparison straight away (handy for demos)
+(async () => {
+  await loadRefs();
+  const q = new URLSearchParams(location.search);
+  if (q.get('ref')) {
+    const i = refs.findIndex(r => r.id === q.get('ref'));
+    if (i >= 0) { $('ref').value = i; await pickRef(); }
+    if (q.get('sample')) { $('sample').value = q.get('sample'); $('go').click(); }
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,844 @@
+{
+ "excerpt": "reagan_challenger_1",
+ "split": "test",
+ "kind": "gradient",
+ "voice": null,
+ "flaws": [],
+ "words": [
+  {
+   "word": "ladies",
+   "start": 0.3,
+   "end": 0.58,
+   "score": 0.809
+  },
+  {
+   "word": "and",
+   "start": 0.58,
+   "end": 0.66,
+   "score": 0.756
+  },
+  {
+   "word": "gentlemen",
+   "start": 0.68,
+   "end": 1.06,
+   "score": 0.835
+  },
+  {
+   "word": "i'd",
+   "start": 1.621,
+   "end": 1.721,
+   "score": 0.513
+  },
+  {
+   "word": "planned",
+   "start": 1.761,
+   "end": 2.061,
+   "score": 0.911
+  },
+  {
+   "word": "to",
+   "start": 2.081,
+   "end": 2.141,
+   "score": 0.943
+  },
+  {
+   "word": "speak",
+   "start": 2.201,
+   "end": 2.441,
+   "score": 0.996
+  },
+  {
+   "word": "to",
+   "start": 2.501,
+   "end": 2.581,
+   "score": 0.993
+  },
+  {
+   "word": "you",
+   "start": 2.621,
+   "end": 2.721,
+   "score": 0.98
+  },
+  {
+   "word": "tonight",
+   "start": 2.741,
+   "end": 3.081,
+   "score": 0.618
+  },
+  {
+   "word": "to",
+   "start": 3.141,
+   "end": 3.201,
+   "score": 0.993
+  },
+  {
+   "word": "report",
+   "start": 3.441,
+   "end": 3.801,
+   "score": 0.997
+  },
+  {
+   "word": "on",
+   "start": 3.821,
+   "end": 3.881,
+   "score": 0.987
+  },
+  {
+   "word": "the",
+   "start": 3.901,
+   "end": 3.961,
+   "score": 0.974
+  },
+  {
+   "word": "state",
+   "start": 4.001,
+   "end": 4.242,
+   "score": 0.959
+  },
+  {
+   "word": "of",
+   "start": 4.262,
+   "end": 4.302,
+   "score": 0.998
+  },
+  {
+   "word": "the",
+   "start": 4.302,
+   "end": 4.382,
+   "score": 0.93
+  },
+  {
+   "word": "union",
+   "start": 4.462,
+   "end": 4.722,
+   "score": 0.978
+  },
+  {
+   "word": "but",
+   "start": 5.702,
+   "end": 5.802,
+   "score": 0.845
+  },
+  {
+   "word": "the",
+   "start": 5.822,
+   "end": 5.882,
+   "score": 0.987
+  },
+  {
+   "word": "events",
+   "start": 5.922,
+   "end": 6.222,
+   "score": 0.998
+  },
+  {
+   "word": "of",
+   "start": 6.262,
+   "end": 6.322,
+   "score": 0.996
+  },
+  {
+   "word": "earlier",
+   "start": 6.382,
+   "end": 6.642,
+   "score": 0.886
+  },
+  {
+   "word": "today",
+   "start": 6.682,
+   "end": 7.003,
+   "score": 0.989
+  },
+  {
+   "word": "have",
+   "start": 7.063,
+   "end": 7.203,
+   "score": 0.931
+  },
+  {
+   "word": "led",
+   "start": 7.743,
+   "end": 7.883,
+   "score": 0.996
+  },
+  {
+   "word": "me",
+   "start": 7.903,
+   "end": 7.963,
+   "score": 0.995
+  },
+  {
+   "word": "to",
+   "start": 8.003,
+   "end": 8.063,
+   "score": 0.989
+  },
+  {
+   "word": "change",
+   "start": 8.123,
+   "end": 8.443,
+   "score": 0.991
+  },
+  {
+   "word": "those",
+   "start": 8.463,
+   "end": 8.683,
+   "score": 0.996
+  },
+  {
+   "word": "plans",
+   "start": 8.723,
+   "end": 9.183,
+   "score": 0.998
+  },
+  {
+   "word": "today",
+   "start": 10.264,
+   "end": 10.604,
+   "score": 0.994
+  },
+  {
+   "word": "is",
+   "start": 10.884,
+   "end": 10.984,
+   "score": 0.98
+  },
+  {
+   "word": "a",
+   "start": 11.024,
+   "end": 11.044,
+   "score": 0.971
+  },
+  {
+   "word": "day",
+   "start": 11.124,
+   "end": 11.284,
+   "score": 0.996
+  },
+  {
+   "word": "for",
+   "start": 11.344,
+   "end": 11.444,
+   "score": 0.985
+  },
+  {
+   "word": "mourning",
+   "start": 11.524,
+   "end": 11.884,
+   "score": 0.874
+  },
+  {
+   "word": "and",
+   "start": 12.125,
+   "end": 12.225,
+   "score": 0.991
+  },
+  {
+   "word": "remembering",
+   "start": 12.265,
+   "end": 12.785,
+   "score": 0.979
+  },
+  {
+   "word": "nancy",
+   "start": 13.905,
+   "end": 14.205,
+   "score": 0.965
+  },
+  {
+   "word": "and",
+   "start": 14.265,
+   "end": 14.365,
+   "score": 0.992
+  },
+  {
+   "word": "i",
+   "start": 14.545,
+   "end": 14.565,
+   "score": 0.799
+  },
+  {
+   "word": "are",
+   "start": 14.625,
+   "end": 14.745,
+   "score": 0.576
+  },
+  {
+   "word": "pained",
+   "start": 14.866,
+   "end": 15.166,
+   "score": 0.955
+  },
+  {
+   "word": "to",
+   "start": 15.166,
+   "end": 15.206,
+   "score": 0.022
+  },
+  {
+   "word": "the",
+   "start": 15.226,
+   "end": 15.306,
+   "score": 0.914
+  },
+  {
+   "word": "core",
+   "start": 15.366,
+   "end": 15.606,
+   "score": 0.733
+  },
+  {
+   "word": "by",
+   "start": 15.646,
+   "end": 15.726,
+   "score": 0.939
+  },
+  {
+   "word": "the",
+   "start": 15.766,
+   "end": 15.826,
+   "score": 0.989
+  },
+  {
+   "word": "tragedy",
+   "start": 15.866,
+   "end": 16.266,
+   "score": 0.999
+  },
+  {
+   "word": "of",
+   "start": 16.346,
+   "end": 16.386,
+   "score": 0.996
+  },
+  {
+   "word": "the",
+   "start": 16.406,
+   "end": 16.466,
+   "score": 0.993
+  },
+  {
+   "word": "shuttle",
+   "start": 16.526,
+   "end": 16.786,
+   "score": 0.974
+  },
+  {
+   "word": "challenger",
+   "start": 16.826,
+   "end": 17.306,
+   "score": 0.999
+  },
+  {
+   "word": "we",
+   "start": 18.087,
+   "end": 18.167,
+   "score": 0.996
+  },
+  {
+   "word": "know",
+   "start": 18.187,
+   "end": 18.347,
+   "score": 0.938
+  },
+  {
+   "word": "we",
+   "start": 18.407,
+   "end": 18.487,
+   "score": 0.993
+  },
+  {
+   "word": "share",
+   "start": 18.607,
+   "end": 18.867,
+   "score": 0.955
+  },
+  {
+   "word": "this",
+   "start": 18.907,
+   "end": 19.067,
+   "score": 0.995
+  },
+  {
+   "word": "pain",
+   "start": 19.147,
+   "end": 19.387,
+   "score": 0.996
+  },
+  {
+   "word": "with",
+   "start": 19.467,
+   "end": 19.607,
+   "score": 0.992
+  },
+  {
+   "word": "all",
+   "start": 20.007,
+   "end": 20.127,
+   "score": 0.994
+  },
+  {
+   "word": "of",
+   "start": 20.147,
+   "end": 20.188,
+   "score": 0.913
+  },
+  {
+   "word": "the",
+   "start": 20.208,
+   "end": 20.288,
+   "score": 0.941
+  },
+  {
+   "word": "people",
+   "start": 20.308,
+   "end": 20.588,
+   "score": 0.993
+  },
+  {
+   "word": "of",
+   "start": 20.608,
+   "end": 20.648,
+   "score": 0.998
+  },
+  {
+   "word": "our",
+   "start": 20.728,
+   "end": 20.828,
+   "score": 0.903
+  },
+  {
+   "word": "country",
+   "start": 20.868,
+   "end": 21.168,
+   "score": 0.99
+  },
+  {
+   "word": "this",
+   "start": 22.008,
+   "end": 22.188,
+   "score": 0.946
+  },
+  {
+   "word": "is",
+   "start": 22.248,
+   "end": 22.368,
+   "score": 0.996
+  },
+  {
+   "word": "truly",
+   "start": 22.428,
+   "end": 22.728,
+   "score": 0.998
+  },
+  {
+   "word": "a",
+   "start": 23.009,
+   "end": 23.029,
+   "score": 0.994
+  },
+  {
+   "word": "national",
+   "start": 23.149,
+   "end": 23.589,
+   "score": 0.981
+  },
+  {
+   "word": "loss",
+   "start": 23.649,
+   "end": 23.989,
+   "score": 0.663
+  },
+  {
+   "word": "nineteen",
+   "start": 25.329,
+   "end": 25.75,
+   "score": 0.592
+  },
+  {
+   "word": "years",
+   "start": 25.81,
+   "end": 26.05,
+   "score": 0.971
+  },
+  {
+   "word": "ago",
+   "start": 26.11,
+   "end": 26.25,
+   "score": 0.996
+  },
+  {
+   "word": "almost",
+   "start": 26.71,
+   "end": 27.09,
+   "score": 0.99
+  },
+  {
+   "word": "to",
+   "start": 27.11,
+   "end": 27.15,
+   "score": 0.514
+  },
+  {
+   "word": "the",
+   "start": 27.19,
+   "end": 27.27,
+   "score": 0.973
+  },
+  {
+   "word": "day",
+   "start": 27.33,
+   "end": 27.59,
+   "score": 0.998
+  },
+  {
+   "word": "we",
+   "start": 28.01,
+   "end": 28.09,
+   "score": 0.997
+  },
+  {
+   "word": "lost",
+   "start": 28.19,
+   "end": 28.491,
+   "score": 0.988
+  },
+  {
+   "word": "three",
+   "start": 28.531,
+   "end": 28.751,
+   "score": 0.982
+  },
+  {
+   "word": "astronauts",
+   "start": 28.831,
+   "end": 29.351,
+   "score": 0.853
+  },
+  {
+   "word": "in",
+   "start": 29.391,
+   "end": 29.451,
+   "score": 0.869
+  },
+  {
+   "word": "a",
+   "start": 29.471,
+   "end": 29.491,
+   "score": 0.993
+  },
+  {
+   "word": "terrible",
+   "start": 29.551,
+   "end": 29.931,
+   "score": 0.979
+  },
+  {
+   "word": "accident",
+   "start": 30.011,
+   "end": 30.391,
+   "score": 0.984
+  },
+  {
+   "word": "on",
+   "start": 30.411,
+   "end": 30.471,
+   "score": 0.995
+  },
+  {
+   "word": "the",
+   "start": 30.491,
+   "end": 30.551,
+   "score": 0.994
+  },
+  {
+   "word": "ground",
+   "start": 30.591,
+   "end": 30.992,
+   "score": 0.995
+  },
+  {
+   "word": "but",
+   "start": 31.872,
+   "end": 31.992,
+   "score": 0.997
+  },
+  {
+   "word": "we've",
+   "start": 32.052,
+   "end": 32.312,
+   "score": 0.459
+  },
+  {
+   "word": "never",
+   "start": 32.472,
+   "end": 32.652,
+   "score": 0.997
+  },
+  {
+   "word": "lost",
+   "start": 32.712,
+   "end": 32.972,
+   "score": 0.999
+  },
+  {
+   "word": "an",
+   "start": 33.012,
+   "end": 33.092,
+   "score": 0.972
+  },
+  {
+   "word": "astronaut",
+   "start": 33.152,
+   "end": 33.592,
+   "score": 0.856
+  },
+  {
+   "word": "in",
+   "start": 33.633,
+   "end": 33.693,
+   "score": 0.99
+  },
+  {
+   "word": "flight",
+   "start": 33.753,
+   "end": 34.093,
+   "score": 0.983
+  },
+  {
+   "word": "we've",
+   "start": 34.913,
+   "end": 35.113,
+   "score": 0.4
+  },
+  {
+   "word": "never",
+   "start": 35.113,
+   "end": 35.353,
+   "score": 0.954
+  },
+  {
+   "word": "had",
+   "start": 35.553,
+   "end": 35.713,
+   "score": 0.974
+  },
+  {
+   "word": "a",
+   "start": 35.753,
+   "end": 35.773,
+   "score": 0.995
+  },
+  {
+   "word": "tragedy",
+   "start": 35.833,
+   "end": 36.233,
+   "score": 0.999
+  },
+  {
+   "word": "like",
+   "start": 36.314,
+   "end": 36.494,
+   "score": 0.997
+  },
+  {
+   "word": "this",
+   "start": 36.514,
+   "end": 36.774,
+   "score": 0.999
+  },
+  {
+   "word": "and",
+   "start": 37.734,
+   "end": 37.834,
+   "score": 0.996
+  },
+  {
+   "word": "perhaps",
+   "start": 37.854,
+   "end": 38.174,
+   "score": 0.999
+  },
+  {
+   "word": "we've",
+   "start": 38.234,
+   "end": 38.414,
+   "score": 0.42
+  },
+  {
+   "word": "forgotten",
+   "start": 38.414,
+   "end": 38.834,
+   "score": 0.996
+  },
+  {
+   "word": "the",
+   "start": 38.854,
+   "end": 38.934,
+   "score": 0.903
+  },
+  {
+   "word": "courage",
+   "start": 38.995,
+   "end": 39.395,
+   "score": 0.988
+  },
+  {
+   "word": "it",
+   "start": 39.415,
+   "end": 39.495,
+   "score": 0.973
+  },
+  {
+   "word": "took",
+   "start": 39.535,
+   "end": 39.715,
+   "score": 0.969
+  },
+  {
+   "word": "for",
+   "start": 39.755,
+   "end": 39.855,
+   "score": 0.991
+  },
+  {
+   "word": "the",
+   "start": 39.875,
+   "end": 39.955,
+   "score": 0.981
+  },
+  {
+   "word": "crew",
+   "start": 40.235,
+   "end": 40.435,
+   "score": 0.685
+  },
+  {
+   "word": "of",
+   "start": 40.475,
+   "end": 40.535,
+   "score": 0.983
+  },
+  {
+   "word": "the",
+   "start": 40.575,
+   "end": 40.635,
+   "score": 0.993
+  },
+  {
+   "word": "shuttle",
+   "start": 40.695,
+   "end": 41.035,
+   "score": 0.945
+  },
+  {
+   "word": "but",
+   "start": 41.956,
+   "end": 42.076,
+   "score": 0.999
+  },
+  {
+   "word": "they",
+   "start": 42.116,
+   "end": 42.316,
+   "score": 0.996
+  },
+  {
+   "word": "the",
+   "start": 42.456,
+   "end": 42.556,
+   "score": 0.989
+  },
+  {
+   "word": "challenger",
+   "start": 42.816,
+   "end": 43.296,
+   "score": 0.998
+  },
+  {
+   "word": "seven",
+   "start": 43.396,
+   "end": 43.676,
+   "score": 0.967
+  },
+  {
+   "word": "were",
+   "start": 43.916,
+   "end": 44.056,
+   "score": 0.988
+  },
+  {
+   "word": "aware",
+   "start": 44.076,
+   "end": 44.336,
+   "score": 0.986
+  },
+  {
+   "word": "of",
+   "start": 44.357,
+   "end": 44.417,
+   "score": 0.997
+  },
+  {
+   "word": "the",
+   "start": 44.437,
+   "end": 44.517,
+   "score": 0.946
+  },
+  {
+   "word": "dangers",
+   "start": 44.557,
+   "end": 44.997,
+   "score": 0.989
+  },
+  {
+   "word": "but",
+   "start": 45.637,
+   "end": 45.757,
+   "score": 0.335
+  },
+  {
+   "word": "overcame",
+   "start": 45.797,
+   "end": 46.237,
+   "score": 0.998
+  },
+  {
+   "word": "them",
+   "start": 46.257,
+   "end": 46.357,
+   "score": 0.974
+  },
+  {
+   "word": "and",
+   "start": 46.417,
+   "end": 46.517,
+   "score": 0.983
+  },
+  {
+   "word": "did",
+   "start": 46.777,
+   "end": 46.937,
+   "score": 0.998
+  },
+  {
+   "word": "their",
+   "start": 46.977,
+   "end": 47.118,
+   "score": 0.94
+  },
+  {
+   "word": "jobs",
+   "start": 47.178,
+   "end": 47.498,
+   "score": 0.998
+  },
+  {
+   "word": "brilliantly",
+   "start": 47.558,
+   "end": 47.978,
+   "score": 0.873
+  }
+ ],
+ "reference": "baseline.wav"
+}

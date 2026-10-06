@@ -1,0 +1,463 @@
+{
+ "excerpt": "jfk_inaugural_2",
+ "split": "calibration",
+ "kind": "stress",
+ "voice": null,
+ "flaws": [
+  {
+   "type": "mumbled",
+   "severity": 2,
+   "i": 13,
+   "j": 16,
+   "start": 8.101,
+   "end": 9.961
+  }
+ ],
+ "words": [
+  {
+   "word": "finally",
+   "start": 0.3,
+   "end": 0.78,
+   "score": 0.961
+  },
+  {
+   "word": "whether",
+   "start": 0.92,
+   "end": 1.18,
+   "score": 0.904
+  },
+  {
+   "word": "you",
+   "start": 1.22,
+   "end": 1.34,
+   "score": 0.924
+  },
+  {
+   "word": "are",
+   "start": 1.46,
+   "end": 1.7,
+   "score": 0.823
+  },
+  {
+   "word": "citizens",
+   "start": 2.78,
+   "end": 3.4,
+   "score": 0.995
+  },
+  {
+   "word": "of",
+   "start": 3.44,
+   "end": 3.5,
+   "score": 0.996
+  },
+  {
+   "word": "america",
+   "start": 3.561,
+   "end": 4.021,
+   "score": 0.993
+  },
+  {
+   "word": "or",
+   "start": 4.941,
+   "end": 5.141,
+   "score": 0.995
+  },
+  {
+   "word": "citizens",
+   "start": 5.281,
+   "end": 5.861,
+   "score": 0.99
+  },
+  {
+   "word": "of",
+   "start": 5.901,
+   "end": 5.961,
+   "score": 0.999
+  },
+  {
+   "word": "the",
+   "start": 6.001,
+   "end": 6.081,
+   "score": 0.956
+  },
+  {
+   "word": "world",
+   "start": 6.121,
+   "end": 6.541,
+   "score": 0.985
+  },
+  {
+   "word": "ask",
+   "start": 7.621,
+   "end": 8.041,
+   "score": 0.989
+  },
+  {
+   "word": "of",
+   "start": 8.101,
+   "end": 8.201,
+   "score": 0.983
+  },
+  {
+   "word": "us",
+   "start": 8.281,
+   "end": 8.421,
+   "score": 0.995
+  },
+  {
+   "word": "here",
+   "start": 8.501,
+   "end": 8.761,
+   "score": 0.706
+  },
+  {
+   "word": "the",
+   "start": 9.881,
+   "end": 9.961,
+   "score": 0.993
+  },
+  {
+   "word": "same",
+   "start": 10.101,
+   "end": 10.662,
+   "score": 0.966
+  },
+  {
+   "word": "high",
+   "start": 10.782,
+   "end": 11.282,
+   "score": 0.94
+  },
+  {
+   "word": "standards",
+   "start": 11.342,
+   "end": 12.022,
+   "score": 0.983
+  },
+  {
+   "word": "of",
+   "start": 12.882,
+   "end": 13.022,
+   "score": 0.995
+  },
+  {
+   "word": "strength",
+   "start": 13.122,
+   "end": 13.602,
+   "score": 0.832
+  },
+  {
+   "word": "and",
+   "start": 13.702,
+   "end": 13.822,
+   "score": 0.967
+  },
+  {
+   "word": "sacrifice",
+   "start": 13.902,
+   "end": 14.742,
+   "score": 0.957
+  },
+  {
+   "word": "which",
+   "start": 15.502,
+   "end": 15.702,
+   "score": 0.981
+  },
+  {
+   "word": "we",
+   "start": 15.782,
+   "end": 15.882,
+   "score": 0.998
+  },
+  {
+   "word": "ask",
+   "start": 16.042,
+   "end": 16.282,
+   "score": 0.998
+  },
+  {
+   "word": "of",
+   "start": 16.362,
+   "end": 16.422,
+   "score": 0.991
+  },
+  {
+   "word": "you",
+   "start": 16.482,
+   "end": 16.662,
+   "score": 0.982
+  },
+  {
+   "word": "with",
+   "start": 18.163,
+   "end": 18.323,
+   "score": 0.936
+  },
+  {
+   "word": "a",
+   "start": 18.343,
+   "end": 18.363,
+   "score": 0.989
+  },
+  {
+   "word": "good",
+   "start": 18.463,
+   "end": 18.643,
+   "score": 0.998
+  },
+  {
+   "word": "conscience",
+   "start": 18.723,
+   "end": 19.283,
+   "score": 0.941
+  },
+  {
+   "word": "our",
+   "start": 20.463,
+   "end": 20.583,
+   "score": 0.929
+  },
+  {
+   "word": "only",
+   "start": 20.683,
+   "end": 20.963,
+   "score": 0.987
+  },
+  {
+   "word": "sure",
+   "start": 21.123,
+   "end": 21.423,
+   "score": 0.746
+  },
+  {
+   "word": "reward",
+   "start": 21.463,
+   "end": 22.003,
+   "score": 0.998
+  },
+  {
+   "word": "with",
+   "start": 23.623,
+   "end": 23.803,
+   "score": 0.961
+  },
+  {
+   "word": "history",
+   "start": 23.843,
+   "end": 24.243,
+   "score": 0.967
+  },
+  {
+   "word": "the",
+   "start": 24.523,
+   "end": 24.603,
+   "score": 0.981
+  },
+  {
+   "word": "final",
+   "start": 24.683,
+   "end": 25.144,
+   "score": 0.999
+  },
+  {
+   "word": "judge",
+   "start": 25.304,
+   "end": 25.644,
+   "score": 0.95
+  },
+  {
+   "word": "of",
+   "start": 25.684,
+   "end": 25.744,
+   "score": 0.998
+  },
+  {
+   "word": "our",
+   "start": 25.804,
+   "end": 25.944,
+   "score": 0.991
+  },
+  {
+   "word": "deeds",
+   "start": 26.004,
+   "end": 26.444,
+   "score": 0.987
+  },
+  {
+   "word": "let",
+   "start": 27.764,
+   "end": 27.944,
+   "score": 0.999
+  },
+  {
+   "word": "us",
+   "start": 28.024,
+   "end": 28.184,
+   "score": 0.999
+  },
+  {
+   "word": "go",
+   "start": 28.284,
+   "end": 28.364,
+   "score": 0.997
+  },
+  {
+   "word": "forth",
+   "start": 28.624,
+   "end": 29.024,
+   "score": 0.854
+  },
+  {
+   "word": "to",
+   "start": 29.104,
+   "end": 29.184,
+   "score": 0.997
+  },
+  {
+   "word": "lead",
+   "start": 29.304,
+   "end": 29.584,
+   "score": 0.996
+  },
+  {
+   "word": "the",
+   "start": 29.644,
+   "end": 29.724,
+   "score": 0.986
+  },
+  {
+   "word": "land",
+   "start": 29.784,
+   "end": 30.144,
+   "score": 0.997
+  },
+  {
+   "word": "we",
+   "start": 30.204,
+   "end": 30.304,
+   "score": 0.997
+  },
+  {
+   "word": "love",
+   "start": 30.404,
+   "end": 30.704,
+   "score": 0.999
+  },
+  {
+   "word": "asking",
+   "start": 31.985,
+   "end": 32.525,
+   "score": 0.973
+  },
+  {
+   "word": "his",
+   "start": 32.645,
+   "end": 32.845,
+   "score": 0.998
+  },
+  {
+   "word": "blessing",
+   "start": 32.945,
+   "end": 33.385,
+   "score": 0.988
+  },
+  {
+   "word": "and",
+   "start": 34.245,
+   "end": 34.405,
+   "score": 0.961
+  },
+  {
+   "word": "his",
+   "start": 34.465,
+   "end": 34.645,
+   "score": 0.976
+  },
+  {
+   "word": "help",
+   "start": 34.705,
+   "end": 34.985,
+   "score": 0.962
+  },
+  {
+   "word": "but",
+   "start": 36.245,
+   "end": 36.445,
+   "score": 0.999
+  },
+  {
+   "word": "knowing",
+   "start": 36.505,
+   "end": 36.965,
+   "score": 0.951
+  },
+  {
+   "word": "that",
+   "start": 37.025,
+   "end": 37.165,
+   "score": 0.997
+  },
+  {
+   "word": "here",
+   "start": 37.245,
+   "end": 37.505,
+   "score": 0.929
+  },
+  {
+   "word": "on",
+   "start": 37.565,
+   "end": 37.665,
+   "score": 0.999
+  },
+  {
+   "word": "earth",
+   "start": 37.725,
+   "end": 38.085,
+   "score": 0.943
+  },
+  {
+   "word": "god's",
+   "start": 39.126,
+   "end": 39.546,
+   "score": 0.896
+  },
+  {
+   "word": "work",
+   "start": 39.626,
+   "end": 40.006,
+   "score": 0.999
+  },
+  {
+   "word": "must",
+   "start": 40.726,
+   "end": 40.966,
+   "score": 0.989
+  },
+  {
+   "word": "truly",
+   "start": 41.026,
+   "end": 41.406,
+   "score": 0.999
+  },
+  {
+   "word": "be",
+   "start": 41.506,
+   "end": 41.586,
+   "score": 0.999
+  },
+  {
+   "word": "our",
+   "start": 41.706,
+   "end": 41.846,
+   "score": 0.997
+  },
+  {
+   "word": "own",
+   "start": 41.946,
+   "end": 42.146,
+   "score": 0.998
+  }
+ ],
+ "reference": "baseline.wav"
+}

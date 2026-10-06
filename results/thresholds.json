@@ -1,0 +1,10 @@
+{
+ "rushed": 2.0,
+ "dragged": 2.5,
+ "monotone": 2.0,
+ "mumbled": 2.5,
+ "loud": 2.0,
+ "long_pause": 5.0,
+ "no_pause": 2.0,
+ "stutter": 3.0
+}
